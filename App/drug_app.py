@@ -5,10 +5,10 @@ import os
 # Try to load model from different possible paths
 model_path = None
 possible_paths = [
-    "../Model/drug_pipeline.joblib",
+    "drug_pipeline.joblib",
     "./Model/drug_pipeline.joblib", 
-    "Model/drug_pipeline.joblib",
-    "drug_pipeline.joblib"
+    "../Model/drug_pipeline.joblib",
+    "Model/drug_pipeline.joblib"
 ]
 
 for path in possible_paths:
@@ -20,6 +20,7 @@ if model_path is None:
     raise FileNotFoundError("Could not find the trained model file")
 
 pipe = joblib.load(model_path)
+print(f"Model loaded successfully from: {model_path}")
 
 def predict_drug(age, gender, blood_pressure, cholesterol, na_to_k_ratio):
     features = [age, gender, blood_pressure, cholesterol, na_to_k_ratio]
