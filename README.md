@@ -182,3 +182,4 @@ This project is licensed under the Apache 2.0 License.
 - **Author**: Varsha Venkatesan
 - **GitHub**: [@varshavenkatesan](https://github.com/varshavenkatesan)
 - **Hugging Face**: [@varshavenkatesan](https://huggingface.co/varshavenkatesan)
+- **Email**: varshavenkatesan26@gmail.com

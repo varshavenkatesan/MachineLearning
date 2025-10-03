@@ -14,7 +14,7 @@ eval:
 
 update-branch:
 	git config --global user.name "varshavenkatesan"
-	git config --global user.email "varshavenkatesan@gmail.com"
+	git config --global user.email "varshavenkatesan26@gmail.com"
 	git add Model Results
 	git commit -m "Update model and results" || echo "No changes to commit"
 	git push --force origin HEAD:update
