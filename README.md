@@ -2,7 +2,7 @@
 
 A complete machine learning pipeline for drug classification with CI/CD automation and deployment to Hugging Face Spaces.
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ├── App/                    # Gradio web application
@@ -24,7 +24,7 @@ A complete machine learning pipeline for drug classification with CI/CD automati
 └── notebook.ipynb       # Experimentation notebook
 ```
 
-## 🚀 Features
+##  Features
 
 - **Reproducible ML Pipeline**: Standardized data processing and model training
 - **CI/CD Automation**: GitHub Actions for automated training and deployment
@@ -32,7 +32,7 @@ A complete machine learning pipeline for drug classification with CI/CD automati
 - **Model Versioning**: Automated model and results tracking
 - **Cloud Deployment**: Automatic deployment to Hugging Face Spaces
 
-## 📊 Dataset
+##  Dataset
 
 The drug classification dataset contains patient information:
 - **Age**: Patient age (15-74)
@@ -94,7 +94,7 @@ The drug classification dataset contains patient information:
    - Profile → Settings → Access Tokens
    - Create new token with write permissions
 
-## 🔄 CI/CD Pipeline
+##  CI/CD Pipeline
 
 The pipeline automatically:
 
@@ -128,7 +128,7 @@ make update-branch
 make deploy
 ```
 
-## 📈 Model Performance
+##  Model Performance
 
 The Random Forest classifier uses:
 - **Preprocessing**: Ordinal encoding for categorical features, median imputation and scaling for numerical features
@@ -136,13 +136,13 @@ The Random Forest classifier uses:
 - **Evaluation**: Accuracy and F1-score metrics
 - **Visualization**: Confusion matrix plot
 
-## 🌐 Deployment
+##  Deployment
 
 The app is automatically deployed to:
 - **Hugging Face Space**: `https://huggingface.co/spaces/varshavenkatesan/MachineLearning`
 - **GitHub Repository**: `https://github.com/varshavenkatesan/MachineLearning`
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **ML Framework**: scikit-learn
 - **Web Framework**: Gradio
@@ -152,7 +152,7 @@ The app is automatically deployed to:
 - **Automation**: Makefile
 - **Version Control**: Git
 
-## 📝 Usage Example
+##  Usage Example
 
 ```python
 # Load the trained pipeline
@@ -165,7 +165,7 @@ prediction = pipe.predict([features])[0]
 print(f"Predicted Drug: {prediction}")
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch
@@ -173,7 +173,7 @@ print(f"Predicted Drug: {prediction}")
 4. Push to GitHub (triggers CI/CD)
 5. Create pull request
 
-## 📄 License
+##  License
 
 This project is licensed under the Apache 2.0 License.
 
